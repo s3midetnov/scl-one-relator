@@ -1,0 +1,10 @@
+% Single source of truth for the two relators of the paper's Theorem 1.
+%
+% paper/scl-counterexample.tex \input{}s this file directly and uses
+% \rWord / \rPrimeWord wherever the words appear.
+%
+% scl/relators.py and lean/SclCounterexample/Isomorphism.lean parse this
+% same file (see their READMEs) instead of hardcoding the words, so the
+% three cannot silently drift apart.
+\newcommand{\rWord}{aabABabABBAbaabABBAb}
+\newcommand{\rPrimeWord}{aabABabABabABBAbaBAb}

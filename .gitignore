@@ -1,0 +1,11 @@
+.DS_Store
+**/.DS_Store
+.claude/
+
+# scallop is fetched and built locally, not vendored
+scl/vendor/
+__pycache__/
+
+# Lean build artifacts and dependency checkouts
+lean/.lake/
+lean/build/
