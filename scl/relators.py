@@ -53,7 +53,7 @@ RELATORS = [
         "genus-2 surface relator, rank 4",
     ),
     Relator(
-        "calibration: Heuer-Loh Example 1.1",
+        "calibration: Heuer-Löh Example 1.1",
         "aaaabABAbaBAAbAB",
         Fraction(5, 8),
         "paper, calibration sentence",
